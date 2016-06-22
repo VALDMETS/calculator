@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <title>ROBO CALC</title>
+  </head>
+  <body>
+  <div class="calc-box">
+    <input id="first" placeholder="@">
+    <input id="second" placeholder="@">
+    <div class="button-block">
+      <button onclick="addition(first.value,second.value)" type="button" name="addition">+</button>
+      <button onclick="subtraction(first.value,second.value)" type="button" name="subtraction">-</button>
+      <button onclick="multiply(first.value,second.value)" type="button" name="multiply">*</button>
+      <button onclick="divide(first.value,second.value)" type="button" name="divide">/</button>
+    </div>
+    <output id="sum" value="20"></output>
+  </div>
+    <script type="text/javascript" src="main.js">
+    </script>
+  </body>
+</html>
